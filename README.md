@@ -9,7 +9,7 @@ dockerfile是用的vscode的插件生成的<br>
 `glide install`<br>
 生成docker镜像文件<br>
 `docker build .`<br>
-运行docker 切配置文件挂载<br>
+运行docker 切配置文件挂载(ps:也可以用go-bindata进行处理配置文件)<br>
 -v /path:/path 将宿主文件挂载在容器对应的目录<br>
 这里我在开始做的时候闹了一个笑话，容器名称dockertest写在了-v 前边，结果导致挂载不上。<br>
 /bin/bash表示接受shell<br>
