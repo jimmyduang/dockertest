@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  dockertest:
+    image: dockertest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 8000:8000
