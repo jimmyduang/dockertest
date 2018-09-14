@@ -15,7 +15,7 @@ dockerfile是用的vscode的插件生成的<br>
 /bin/bash表示接受shell<br>
 如果向进入容器内部<br>
   先列出容器对应的ID<br>
-   `docker ps<br>`
+   `docker ps`<br>
   然后exec进入容器内部<br>
    docker exec -it 容器id /bin/bash<br>
    如果执行上面命令报错则把/bin/bash缓存/bin/sh<br>
