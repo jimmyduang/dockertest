@@ -4,9 +4,7 @@ this is a docker test basic golang<br>
 包管理工具 glide\<br>
 dockerfile是用的vscode的插件生成的<br>
 初始化包\<br>
-···
-glide init
-···
+·glide init·
 生成依赖<br>
 ···
 glide install
