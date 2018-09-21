@@ -22,3 +22,6 @@ dockerfile是用的vscode的插件生成的<br>
   ` docker exec -it 36476bbaff1d /bin/sh`<br>
 `docker run -p 8000:8000  -v /home/gosrc/src/dockertest/config:/config dockertest   /bin/bash`
 
+
+好文推荐：https://zhuanlan.zhihu.com/p/26777189
+
